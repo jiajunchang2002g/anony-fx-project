@@ -1,0 +1,4 @@
+/home/chang/java/gs-spring-boot/multi-currency-payment-platform/src/test/java/com/example/paymentplatform/PlatformApiIntegrationTest.java
+/home/chang/java/gs-spring-boot/multi-currency-payment-platform/src/test/java/com/example/paymentplatform/TransferConcurrencyIntegrationTest.java
+/home/chang/java/gs-spring-boot/multi-currency-payment-platform/src/test/java/com/example/paymentplatform/service/FxRateServiceTest.java
+/home/chang/java/gs-spring-boot/multi-currency-payment-platform/src/test/java/com/example/paymentplatform/service/TransferServiceTest.java

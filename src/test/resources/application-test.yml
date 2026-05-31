@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:paymentplatform;MODE=PostgreSQL;DB_CLOSE_DELAY=-1;DATABASE_TO_UPPER=false
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true
+  flyway:
+    enabled: false
+  main:
+    allow-bean-definition-overriding: true
+
+app:
+  jwt:
+    secret: test-secret-key-test-secret-key-test-secret-key-123456
+    expiration-minutes: 120
+  financial:
+    scale: 6
+    rounding-mode: HALF_UP
+  fx:
+    base-currency: SGD
+    cache-ttl-seconds: 3600
+  bank:
+    shared-secret: test-bank-secret

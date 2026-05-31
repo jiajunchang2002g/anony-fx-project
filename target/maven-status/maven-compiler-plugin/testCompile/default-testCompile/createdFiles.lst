@@ -1,0 +1,4 @@
+com/example/paymentplatform/service/FxRateServiceTest.class
+com/example/paymentplatform/PlatformApiIntegrationTest.class
+com/example/paymentplatform/TransferConcurrencyIntegrationTest.class
+com/example/paymentplatform/service/TransferServiceTest.class

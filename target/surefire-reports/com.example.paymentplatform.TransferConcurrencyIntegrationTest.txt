@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.paymentplatform.TransferConcurrencyIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.183 s -- in com.example.paymentplatform.TransferConcurrencyIntegrationTest
